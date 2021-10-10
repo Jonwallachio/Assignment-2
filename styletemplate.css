@@ -1,0 +1,85 @@
+/*body class created to control background color and font */
+body {
+    background-color: rgb(185, 180, 180);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*a class used to removed text decoration from an element*/
+a {
+    text-decoration: none;
+}
+
+/*classes created to remove margin from headers*/
+h1, h2, h3 {
+    margin: 0;
+}
+
+/*class created to justify and create a margin for all paragraphs*/
+p {
+    text-align: justify;
+    margin-right: 100px;
+}
+
+/*header class created to make a color box with no margin that
+tops the page, centers the title and turns it white for readability
+against a colored background*/
+#header {
+    background-color: #c43b51;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+/*container id created to center the page and its contents*/
+#container {
+    background-color: white;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*content id created to give all content a small amount of padding*/
+#content {
+    padding: 5px;
+}
+
+/*nav id created to act as a sidebar where new content can be linked to
+the following code keeps the bar on the left, float is used to keep the
+page intact*/
+#nav {
+    padding: 10px;
+    width: 200px;
+    float: left;
+}
+
+/*selected class defined to exist within the nav bar and make all text inside
+bolded*/
+#nav .selected {
+    font-weight: bold;
+}
+
+/*unordered lists within the nav id will have the dots removed and different color*/
+#nav ul {
+    list-style-type: none;
+    padding: 10;
+    color: red;
+}
+
+/*main id created to keep main content floating to the right of the nav bar
+margin is introduced to further center the page*/
+#main {
+    width: 1200px;
+    float: right;
+    margin-top: -80px;
+}
+
+/*footer given color, alignment and padding to look more footery
+clear is used to ensure footer displays at the bottom of the page*/
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: #999;
+    color: white;
+    text-align: right;
+}
