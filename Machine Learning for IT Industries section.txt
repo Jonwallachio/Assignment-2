@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <!--the title is whats written on the tab-->
+        <title>Mighty Ducks</title>
+        <!--use the link function to link a stylesheet,
+        alternatively you can edit the existing stylesheet-->
+        <link rel='stylesheet' type='text/css' href='style.css'>
+    </head>
+    <body>
+        <!--the container id is held in its own div, used as pixel
+        reference for future elements. Seen as the white box within the gray borders-->
+        <div id='container'>
+            <!--this div uses the stylesheet to create a block that holds
+            the title header of the site, edit its properties in css-->
+            <div id='header'>
+                <h1>Mighty Ducks Assessment Two</h1>
+            </div>
+            <!--content div holds the bulk of the page content and is fit
+            within the container element. as with all divs and their ids the
+            properties such as color, text and margin can be edited within the
+            existing stylesheet or you can link your own-->
+            <div id='content'>
+                <!--the actual code for nav bar is held in the css, the nav bar
+                functions to create hyperlinks that open more pages of content
+                in a new tab, if possible lets stick with the new tab format-->
+                <div id='nav'>
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a class='selected' href=''>Introduction</a></li>
+                        <li><a href='idealProject.html' target ='_blank'>Dream Project</a></li>
+                        <li><a href='gallery.html' target ='_blank'>Gallery</a></li>              
+                    </ul>
+                </div>
+                <!--main will hold a box of content-->
+                <div id='main'>
+                    <h2>IT Industries - Machine Learning</h2>
+                    <h3>What does it do? (600 words) What is the state of the art of this new technology? What can be done now? What is likely to be able to do be done soon (say in the next 3 years)? What technological or other developments make this possible?</h3>
+
+<p>Machine learning is an aspect of computer science, and specifically an example of artificial intelligence, which has as it's focus the use of algorithms and data 
+which can approximate the way that human beings learn. Over time machine learning would enable algorithms to improve the accuracy of their predictions and output based 
+on the data they have access to.
+
+Machine learning is often defined as consisting of three primary components:</p>
+
+<ul>
+<li>1. Decision Process: Machine learning algorithms primary function is to make predictions or classifications based on data. The algorithm is designed to identify patterns
+and make estimates about possible outcomes based on those patterns.</li>
+
+<li>2. Error Function: Error functions serve the purpose of evaluating the prediction model itself. If the function has access to previous examples of prediction outcomes, 
+it can make a comparison to assess the accuracy of a given model.</li>
+
+<li>3. Model Optimization Process: Weighting is introduced to reduce the discrepancy between known outcome examples and model estimates produced by the algorithm. The algorithm
+repeats the evaluate and optimize process, autonomously, until a certain threshold of accuracy is achieved.</li>
+</ul>
+<br><br>
+
+<p>Machine Learning is used in many real world ways including the following:</p>
+
+<ul>
+<li>Customer service: Many aspects of the customer journey are now handled by online chatbots and messaging bots. Customer engagement is now more and more likely to involve non-human entities driven by 
+machine learning algorithms.</li>
+<li>Speech recognition: Automatic Speech Recognition (ASR) is a commonly used aspect of machine learning which uses Natural Language Processing (NLP) to interpret and process human speech into a 
+written format, as a transcript or for things like voice search for Siri or Google.</li>
+<li>Recommendation engines: AI algorithms can help to discover data trends that can be used to develop more effective cross-selling strategies by reviewing and analyzing past consumption data.</li>
+<li>Computer vision: An AI technology which enables computers and systems to derive meaningful information from digital images, videos and other visual inputs. This AI can then take actions or make 
+recommendations based on the visual imagery.</li>
+<li>Automated stock trading: AI which is designed to optimize the trading of stocks and shares to optimize stock portfolios and is most commonly associated with high-frequency trading platforms which 
+move much faster than a human stock broker could.</li>
+
+</ul>
+<br><br>
+
+<p>Machine Learning is an ever expanding field of computer science. Some examples of state of the art of machine learning features include generative adversarial networks (GANs) 
+and Automated Machine Learning (AutoML). 
+GANs allow competing networks to work back and forth until the generator network fools the discriminator network, resulting in an online avatar that is deceptively real 
+and that computers and people have difficulty telling it apart from an actual person.
+AutoML is essentially the ability for computers to learn from other computers. This allows AI software to automate a machine learning process far past what would be possible 
+through the manual creation of code.</p>
+
+<br><br>
+
+<p>In the future machine learning will expand to encompass a variety of new applications and uses.</p>
+
+<ul>
+<li>- Search engine outcomes will be improved and tailored to the individual. With further neural network growth and development blended with evolving deep learning 
+techniques, the future search engines will be far better in providing responses and perceptions that are significantly germane to the searchers, explorers of the web.</li>
+<li>- Product development will be driven by data insights garnered through analysis of target audiences and their consumer behaviour. Developers, programmers, and 
+engineers will customize products far more precisely than ever before with algorithms to break down exactly how their products are used.</li>
+<li>- Machine learning will be enhanced dramatically by the introduction of quantum computing. Near-instant processing, rapid learning, expanded capacities, and enhanced 
+computational capabilities will be introduced. This will result in an environment where, complicated processes and algorithms 
+that we may not currently have the capacity to tackle with conventional methods, will become simple and near instantaneous.</li>
+<li>- Full automation will exist where systems are able to essentially enhance themselves. Manual coding will become unnecessary in many circumstances.</li>
+
+</ul>
+<br><br>
+
+
+
+<h3>What is the likely impact? (300 words) What is the potential impact of this development? What is likely to change? Which
+people will be most affected and how? Will this create, replace or make redundant any current jobs or technologies?</h3>
+
+M<p>achine learning will have a dramatic effect on the future of the labor market in particular.
+Some key areas will be particularly impacted.</p>
+
+<ul>
+<li>1. Customer Service
+The vast majority of roles in customer service, particularly online or phone based customer service roles, will progressively become redundant due to advances in machine learning capabilities.
+Approximately 1.4 billion people were estimated to have an interaction with a Chatbot in the year 2018 for example, and this rate of Chatbot interaction has only grown in the years since.
+Chatbots are now being taught, utilizing machine learning algorithms and technology, to understand natural language patterns, dialects and entire company product libraries. Many customer 
+services roles, including, but not restricted to, industries such as call center response, banking, hospitality and retail have and will continue to become dominated by the introduction of 
+machine learning enabled chatbots and AI interface applications. This will have a dramatic effect on employment in these industries. Many millions of jobs will be lost in coming years.</li>
+
+<li>2. Driving
+Millions of people are employed in roles that involve driving cars. With the introduction of machine learning, the reality of self-driving, self-operating vehicles is becoming closer and closer 
+to reality. As machine learning algorithms become more and more capable of teaching computers how to safely navigate the road and rail systems, companies will save billions by eliminating their workforces.
+Taxi drivers, delivery drivers, truck drivers, train operators, ride-share drivers, bus drivers and even pilots will lose their jobs as the public gores more and more accustomed to the normality of self-operating
+vehicles.</li>
+
+<li>3. Manufacturing
+Millions of people around the world currently work in factories and manufacturing centers, operating, maintaining and organizing the use of machines, tools and robots to manufacture the multitude of goods
+available in modern society. Most of these roles will become redundant in future years as more and more of the operation of the manufacturing industry is handled by industrial robotics driven by AI and machine learning
+algorithms.</li>
+
+<li>4. Administration
+Paperwork in modern corporate business is still a huge driver of employment. Millions of people involved in data-entry, human resources, middle management, database analysis, business analysis, project management and
+a variety of other corporate roles spend an inordinate amount of time managing, creating, analyzing and distributing paperwork and data. The majority of these roles will likely, in future, become dominated by AI managed 
+computer networks.</li>
+
+<li>5. Programming
+Advanced AI will in future more and more come to replace the role of the human computer programmer. AI systems have the potential to produce vast amounts of code at speeds and in variation far beyond the ability
+of a human being to produce. The development of code and software in the future will come to be dominated not by human programmers but by AI, with only a much reduced layer of software developers as oversight over the 
+operation of vast AI networks.</li>
+</ul>
+<br><br>
+<p>The social, economic and political effects of these systemic changes are difficult to predict. There will likely be significant effects on society, both positive and negative, which may result in the lost of huge 
+swathes of employment, while also creating vast wealth for some and massively increasing the economic efficiency of the modern global economy.</p>
+
+
+
+<h3>How will this affect you? (300 words) In your daily life, how will this affect you? What will be different for you? How might this
+affect members of your family or your friends?</h3>
+
+<p>Over the short term, machine learning will have mostly positive and welcome effects to my daily life. Machine learning has the potential to make dramatic and exciting changes to improve technology and services,
+and to make modern life safer, cleaner and to introduce dynamic new technologies.
+My own role as technology worker will likely be at the cutting edge of the introduction of exciting new examples of AI and machine learning driven software and networks. Programming will become faster, more efficient, with 
+less defects and chance of deployment failures. Productization will revolutionize the way we do business, allowing consumer data a much faster, more accurate customer feedback loop.</p>
+
+<p>In my personal life, I will have access to a variety of exciting new technology as a result of the introduction of machine learning. Everything from entertainment to transport to healthcare will be enhanced through the user 
+products and services. One example is the use of machine learning to create better diagnostic capability within healthcare services, resulting in greater rates of accurate and early diagnosis of health conditions. This has 
+the potential to massively improve the health outcomes of every member of society. Machine learning can be used within government departments to drive policy making decisions by utilizing optimization algorithms to drive 
+investment on social services and government funding, resulting in better societal outcomes. There is an almost incalculable number of services, industries and social applications that could be potentially improved through
+the introduction of machine learning and AI to drive data driven outcomes.</p>
+
+<p>On the other hand, over the long term, machine learning may result in significant change to the way modern society operates for the negative.
+There may be a huge loss in employment, which if poorly addressed by governmental and social policy responses, could result in significant and negative social upheaval and economic strife.
+This would directly effect all members of society, but particularly people without the specific skills still necessary to survive in an economy dominated by robotics, AI and machine learning.
+As with all economic downturns, if an appropriate mitigation strategy is not put in place by government and business in the form of employment programs and welfare, the impact will be felt in 
+the form of social strife, protest and instability and lowered quality of life for millions of ordinary people.</p>
+                    </p>
+                </div>
+            </div>
+            <!--cute footer that displays our copyright-->
+            <div id='footer'>
+                Copyright &copy; 2021 Mighty Ducks.
+            </div>
+        </div>
+    </body>
+</html>
