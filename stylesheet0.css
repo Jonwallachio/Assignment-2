@@ -83,3 +83,7 @@ clear is used to ensure footer displays at the bottom of the page*/
     color: white;
     text-align: right;
 }
+
+#levels ul {
+    list-style-type: none;
+}
