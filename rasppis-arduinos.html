@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <!--the title is whats written on the tab-->
+        <title>Mighty Ducks</title>
+        <!--use the link function to link a stylesheet,
+        alternatively you can edit the existing stylesheet-->
+        <link rel='stylesheet' type='text/css' href='style.css'>
+    </head>
+    <body>
+        <!--the container id is held in its own div, used as pixel
+        reference for future elements. Seen as the white box within the gray borders-->
+        <div id='container'>
+            <!--this div uses the stylesheet to create a block that holds
+            the title header of the site, edit its properties in css-->
+            <div id='header'>
+              <h1>Mighty Ducks Assessment Two</h1>
+            </div>
+            <!--content div holds the bulk of the page content and is fit
+            within the container element. as with all divs and their ids the
+            properties such as color, text and margin can be edited within the
+            existing stylesheet or you can link your own-->
+            <div id='content'>
+                <!--the actual code for nav bar is held in the css, the nav bar
+                functions to create hyperlinks that open more pages of content
+                in a new tab, if possible lets stick with the new tab format-->
+                <div id='nav'>
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a class='selected' href=''>Introduction</a></li>
+                        <li><a href='idealProject.html' target ='_blank'>Dream Project</a></li>
+                        <li><a href='gallery.html' target ='_blank'>Gallery</a></li>              
+                    </ul>
+                </div>
+                <!--main will hold a box of content-->
+                <div id='main'>
+                    <h2>Raspberry Pis, Arduinos, Makey Makeys and Other Small Computing Devices</h2>
+                        <p>By Callum Copley
+		         <br>
+		         S3882855@student.rmit.edu.au
+			</p>
+		    <h3>What are they?</h3>
+		    <p>Raspberry Pi is a series of credit-card-sized, single-board computers. Many
+		      operating systems can run on it, including Linux, *BSD, Windows, and Plan 9,
+		      but it is intended to be used with Raspberry Pi OS (a Linux distribution).
+		      Arduino and ROCK64 are similar lines of products.
+		    </p>
+		    <p>These single-board computers can have a vast number of uses, including video
+		      game emulation, home theatres, network-level ad blockers, security cameras,
+		      motion sensors, alarm clocks, robotics, garage door openers, and much, much
+		      more. A full list of all possible uses of these devices is too much to type.
+		    </p>
+		    <p>A big advantage of using and configuring such devices for whatever it is you
+		      want to do instead of, for example, buying a set of security cameras that run
+		      on a cloud service, or buying a smart TV with built-in home theater software,
+		      is that these devices are highly configurable.
+		    </p>
+		    <p>Let’s take security cameras for example. Buying a set of security cameras
+		      that run on the company’s cloud service, from which you would probably have to
+		      install a proprietary application to view and download your own footage, could
+		      limit you to just that. In some cases, their cameras might contain proprietary
+		      firmware which prevents computers and hard drives being hooked up to it and
+		      used at your own freedom so that you are forced to use their services. While
+		      it is possible to buy a video camera and physically hook it up to your PC,
+		      that means wires throughout your house and less portability. With a Raspberry
+		      Pi hooked up directly to the camera, footage can be streamed from the
+		      Raspberry Pi to your home computer, using absolutely whatever software you
+		      want.
+		    </p>
+		    <p>Another example is home theaters. Many smart TVs come with a software suite
+		      that allows the user to conveniently switch between streaming services, news
+		      websites/articles, social media sites, etc. This, however, can also be done
+		      using a regular non-smart TV and a device like a Raspberry Pi or a ROCK64, for
+		      significantly less money. Aside from it being cheaper, it also allows for more
+		      configurability. Using a micro-computer installed with any software of your
+		      choosing, you are able to decide all the way down to the operating system what
+		      you would like your home-made smart TV to do. The issue of privacy also arises
+		      here. Smart TV’s most often use proprietary, closed-source software, meaning
+		      the source code is not available to the public. This means that the software
+		      you’re using could be doing anything with your usage data and personal
+		      information without you knowing about it. In fact, Vizio, an electronics
+		      company which sells smart TVs, was involved in two class-action lawsuits over
+		      their smart TV’s spying on it’s users in 2015.
+		    </p>
+		    <p>The main reason these devices are so configurable is because most of the
+		      software they run is open source and very well documented, which is another
+		      advantage of using them. This means that any user is permitted to use, view,
+		      edit, and redistribute the software freely. It also means that the world is
+		      made aware if said software spies on it’s users. Even if you don’t know how to
+		      read the source code, or it’s too much to want to read through, if the
+		      software is popular enough, odds are you will know, from the community that
+		      uses it or from other sources, if it has any malicious intent.
+		    </p>
+		    <p>The third big advantage of these devices is the cost. As written in the
+		      example on smart TVs, they can be much cheaper than pre-built, pre-configured
+		      alternatives. The one disadvantage though, is that they are not easy to use
+		      for people who don’t know their way around computers. Without guidance, a user
+		      of a Raspberry Pi, a ROCK64, an Arduino, etc. should be at least a little bit
+		      tech-savvy and willing to learn and spend time on it, but that’s not to say
+		      that only computer experts can use them.
+		    </p>
+		    <p>Another small device worth tinkering with is a Makey Makey. Makey Makey is an
+		      invention kit used for connecting and assigning everyday objects to computer
+		      keys. Alligator clips are hooked up to an object (for a bizarre example, a
+		      banana), and the other end of the cable is connected to a circuit board via
+		      USB. The toy uses closed loop electrical signals to send the computer either a
+		      keyboard stroke or a mouse-click signal, depending on the user's choice. So
+		      the banana can then be physically pressed to send the chosen keystroke/mouse-
+		      click to the computer.
+		    </p>
+		    <p>Aside from using a banana as a keystroke, Makey Makey’s can actually be
+		      useful for a variety of things. For example, a doormat could be hooked up to a
+		      Makey Makey which, when someone steps on it, tells a computer (think Raspberry
+		      Pi) to start a video using a security camera and stream it on your monitor
+		      inside. Or you could hook each of the stairs of a staircase up to a Makey
+		      Makey to tell a computer to make a sound through speakers each time a stair is
+		      stepped on. Your baby has tumbled down the stairs while you were asleep? No
+		      problem, the ‘bruh’ sound effect just echoed throughout the house loudly like
+		      12 times, which wakes you up to go and help the baby.
+		    </p>
+		    <h3>What impact can these devices have on our society?</h3>
+		    <p>With more development for open-source projects concerning small single-board
+		      computers (SBCs), these devices could serve as an alternative to products like
+		      Amazon Echo or Google Home; for some, they already do. It would solve or
+		      lessen the issues of privacy and freedom. Having people familiarize themselves
+		      with such technologies could also introduce them to or help them get
+		      acquainted with using computers and, for some, perhaps even programming.
+		    </p>
+		    <p>If IT were taught in all schools to all students, even from a young age, this
+		      would help educate everyone on how to use technology more safely and
+		      responsibly, e.g., knowing who they’re giving their information to and how to
+		      ensure the accounts of the services they use are protected in the most secure
+		      way they can, but it would also promote technological progress and societal
+		      freedom. Information technology is inevitably only going to become more
+		      prevalent in our lives, and small, cheap devices like the ROCK64 are a great
+		      way to get people more involved in this world of technology. It puts the power
+		      of digital making into the hands of people all over the world, and the more
+		      people there are who get involved in it, the less we as individuals and as a
+		      society have to rely on huge companies (Apple, Google, Amazon, to name a few)
+		      to do things for us. This is always a good thing.
+		    </p>
+		    <p>SBCs and Makey Makeys can be seen as education devices. They are there to
+		      help it’s users become more immersed in the workings of computers and what
+		      they can be used for. Raspberry Pi OS even comes shipped with Scratch, a
+		      visual programming language to teach very young children how to program.
+		    </p>
+		    <h3>How will this affect me?</h3>
+		    <p>I don’t yet own any of these devices, but I would like to. I am already well-
+		      acquainted with Linux operating systems and I am currently learning how to
+		      program. Being as passionate in information technology as I am, owning
+		      something as simple as a ROCKPro64 would change my life. No longer will I have
+		      to buy over-priced, single-purposed, non-programmable humidistats and
+		      thermostats to monitor and control the humidity and temperature of my indoor
+		      garden, nor will I have to spend time guessing and scratching my head at
+		      certain symptoms undertaken by my plants and why; I can use a ROCK to monitor
+		      and graph the conditions of my greenhouse to more accurately diagnose
+		      problems.
+		    </p>
+		    <p>I plan to move out of my apartment some day and into a house with a yard so I
+		      could grow my plants outside, at which point I won’t really need an SBC for
+		      said purposes as much. However, I could still use a Makey Makey to alarm me
+		      when a pest enters the garden, using some sort of wire surrounding the
+		      perimeter. I could also use a surveillance camera hooked up to an SBC to show
+		      me exactly what pests have tried to enter my garden. While I’m at it, I may as
+		      well hook up an SBC to moisture meters planted in the soil and watering
+		      mechanisms to auto-water my plants when needed. The possibilities are endless.
+		    </p>
+                </div>
+            </div>
+            <!--cute footer that displays our copyright-->
+            <div id='footer'>
+                Copyright &copy; 2021 Mighty Ducks.
+            </div>
+        </div>
+    </body>
+</html>
