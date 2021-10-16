@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <!--the title is whats written on the tab-->
+        <title>Mighty Ducks</title>
+        <!--use the link function to link a stylesheet,
+        alternatively you can edit the existing stylesheet-->
+        <link rel='stylesheet' type='text/css' href='style.css'>
+    </head>
+    <body>
+        <!--the container id is held in its own div, used as pixel
+        reference for future elements. Seen as the white box within the gray borders-->
+        <div id='container'>
+            <!--this div uses the stylesheet to create a block that holds
+            the title header of the site, edit its properties in css-->
+            <div id='header'>
+                <h1>Mighty Ducks Assessment Two</h1>
+            </div>
+            <!--content div holds the bulk of the page content and is fit
+            within the container element. as with all divs and their ids the
+            properties such as color, text and margin can be edited within the
+            existing stylesheet or you can link your own-->
+            <div id='content'>
+                <!--the actual code for nav bar is held in the css, the nav bar
+                functions to create hyperlinks that open more pages of content
+                in a new tab, if possible lets stick with the new tab format-->
+                <div id='nav'>
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a class='selected' href=''>Introduction</a></li>
+                        <li><a href='idealProject.html' target ='_blank'>Dream Project</a></li>
+                        <li><a href='gallery.html' target ='_blank'>Gallery</a></li>              
+                    </ul>
+                </div>
+                <!--main will hold a box of content-->
+                <div id='main'>
+                    <h2>Project Ideas - Work/Life Balance App</h2>
+
+<h3>Overview</h3>
+<p>The Work/Life Balance application will serve to provide an easy to use mobile application for people with busy lives and many commitments. The application will provide a number of services to it's users with the aim of helping them balance their different responsibilities, whether that be work, study, family, friends, hobbies, fitness or other life goals. The application will do so through a number of customer features, including calendars, alarms, reminders, helpful hints, analysis of reports om time spent on various activities to help guide future time management and syncing with email services and other web based video communications applications.</p>
+
+
+<h3>Motivation</h3>
+<p>The primary motivation behind the Work/Life Balance application is to assist busy people find the work/life balance people need to thrive. As people move through life, they accumulate responsibilities and obligations and one the of greatest challenges is to maintain emotional and physical health in the face many demands on your time and energy. This product will help people to balance their many commitments by providing a range of important services. The application will help track time invested in various activities, provide regular reports on your use of time, provide detailed calendar and alarm notification services which are synced to the applications the individual uses in their daily life, from email to online web communications applications and web based work tools.</p>
+
+
+<h3>Description</h3>
+<p>The Work/Life balance application will offer the following key features to it's users. These features will be available as usable components. No feature will be mandatory, and all will be optionally available to users. The type and quantity of personal data stored by the applications database will be determined by the features used and the data will be appropriately encrypted and secure.</p>
+
+<h4>Feature 1: Calendar service</h4>
+<p>A detailed, comprehensive calendar service, with the ability to schedule activities, block out time and track commitments. The calendar feature will allow users to schedule appointments, commitments and blocks of time to devote to activities. These periods of time will incorporate alarms and notifications services, both push and pull and will incorporate modern UX designs to allow users to navigate easily between options.</p>
+
+<h4>Feature 2: Automation to enable time usage suggestions</h4>
+<p>The application will utilize the use existing data gathered as users input their schedule to make smart suggestions. For example, if a user has repeatedly entered a regular meeting at a consistent time and/or location, this application will automatically suggest exactly when and where that meeting should take place. It will then recommend which type of meeting is to be scheduled and who to invite. Using machine learning the application will determine when the best time for a user to work on specific task might be. It will suggest when the ideal time to send emails is based on past response rate. It will remind the user to schedule important appointments, such as medical visits or when it's time to prepare and submit a tax return for a given financial year.</p>
+
+<h4>Feature 3: Utilizing natural language processing to enable predictive text or faster navigation</h4>
+<p>The application will utilize natural language processing to interpret the typed commands of users to help guide them through the use of the application. As users begin scheduling meetings, the tool will assist by interpreting the content of the meeting and suggesting attendees, locations or times for the meeting. Navigation will be assisted by allowing the user to simply type commands such as 'next month' or 'the following Tuesday' triggering the navigation to take them to the appropriate part of the calendar. Predictive text will enable the application to offer drop down selections of suggested times, locations or activities when scheduling.</p>
+
+<h4>Feature 4: Integration with other applications</h4>
+<p>The application will be enabled to integrate with a wide variety of software based tools, including web based video conferencing applications, fitness apps, community activity tracking apps, social engagement applications and all major types of email services. This will allow for seamless navigation between tools, and the ability to schedule meetings and activities directly from the application into the relevant downstream tool or service. If a user wants to quickly schedule a catch up online with friends, they can do so from the application and the meeting will be scheduled and invitations sent to downstream users. Additionally, data transfer will be enabled between applications, allowing the Work/Life Balance app to better serve it's users with helpful suggestions and support.</p>
+
+<h4>Feature 5: Data based reports supplied on a regular basis</h4>
+<p>The application will utilize the historical data available to it and produce regular reports highlighting the user's activities and time management. This will include details such as how much time the user spent on the phone, sending or reading emails, in meetings or appointments, exercising or pursuing fitness goals, at work, with family, in social activities and more. This reporting will enable the user to make smarter decisions about future time management.</p>
+
+<h4>Feature 6: Mindfulness</h4>
+<p>Utilizing data driven machine learning algorithms to track time committed to ‘stressful’ activities such as work or study the application will suggest blocks of time to devote to mindfulness activites such as meditation or exercise. Additionally the app will track time devoted to study or work and suggest breaks and down time.</p>
+
+<h4>Feature 7: Exercise support function</h4>
+<p>The application will use the pedometer function in your mobile phone to track steps and encourage healthy activity time blocks and schedule regular exercise. Based on previous user input the application will predict the type, length and location of future exercise activity.</p>
+
+
+<h3>Tools and Technologies</h3>
+<p>The application will utilize a number of tools and technologies. At it's core, the application will be a mobile and web based software application. It will use APIs, automation and software languages to create a single page front end application connected to various downstream services. Data will be stored in a cloud based data warehouse or database. Languages such as Python, JavaScript, PHP, and others would appropriate for this application. A software development environment such as AWS Cloud9 would be an appropriate service to integrate various tools, applications and code bases. In addition, GitHub would be crucial to coordinate the CI/CD pipeline and serve as a collaboration hub for all code branches and features. A tool such as confluence or Jira might also serve useful to track the work across well defined time-boxes.
+Additionally, appropriate UI technology such as AEM would be an important component of the build to store content and imagery o be accessed by the front end software.
+As part of the storage of user data appropriate encryption would need to be incorporated to protect the data passed via API to the AWS cloud based storage environment. If a user is privacy focused, and has opted out of storage of personal data, then they will be notified that DB storage has been turned off.
+A combination of GPS and the gyroscope based pedometer will track steps and kilometres covered for use in exercise. Distance will be tracked by GPS, while the pedometer itself will track steps, driven by algorithm. The pedometer can function with or without data, enabling feature selection by users.</p>
+
+
+<h3>Skills Required</h3>
+<p>Various software skills will be required, including familiarity with relevant code languages, the use of AWS and Github and the appropriate controls around feature branching, code mergers and maintenance of the central repository. The creation of APIs (including well defined swagger documents, and the ability to integrate APIs across various tools and systems) will be crucial to the project. A knowledge of database structures and languages such as SQL will be imperative. Additionally good Continuous Integration and Continuous Delivery practices will need to be followed to ensure the project is a success. To drive the encryption aspect of the application, appropriate skills relevant to IT security will be required and penetration testing and UAT/PIV testing will need to be conducted. Finally, the successful delivery of the application would require good project management skills and discipline.</p>
+
+
+<h3>Outcome</h3>
+<p>The successful delivery of the application will be measured by the meeting of specified acceptance criteria. This acceptance criteria will be crafted and adjusted throughout the project delivery process in response to frequent engagement with potential and future customers and the resultant customer feedback loop. Potential acceptance criteria would include: The uptake of the tool by potential users. The self-reported satisfaction with the tool as measured in direct workshop engagements with users and through tools such as Net-Promoter Score. The Return on investment achieved through the monetization of the product, utilizing both targeted advertising revenue and premium subscription options.</p>
+
+ </div>
+            </div>
+            <!--cute footer that displays our copyright-->
+            <div id='footer'>
+                Copyright &copy; 2021 Mighty Ducks.
+            </div>
+        </div>
+    </body>
+</html>
