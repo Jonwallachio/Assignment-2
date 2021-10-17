@@ -49,7 +49,7 @@ the following code keeps the bar on the left, float is used to keep the
 page intact*/
 #nav {
     padding: 10px;
-    width: 200px;
+    width: 170px;
     float: left;
 }
 
@@ -71,7 +71,7 @@ margin is introduced to further center the page*/
 #main {
     width: 1200px;
     float: right;
-    margin-top: -80px;
+    margin-top: -10px;
 }
 
 /*footer given color, alignment and padding to look more footery
