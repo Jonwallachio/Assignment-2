@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <!--the title is whats written on the tab-->
@@ -23,14 +24,15 @@
                 <!--the actual code for nav bar is held in the css, the nav bar
                 functions to create hyperlinks that open more pages of content
                 in a new tab, if possible lets stick with the new tab format-->
-    <div id='nav'>
+                <div id='nav'>
                     <h3>Navigation</h3>
 <ul>
 <li><a href='overview.html' target='_blank'>Overview</a></li>
-<li><a href='group-processes-and-communications.html' target='_blank'>Group Processes and Communications</a><a></li>
+<li><a class ='selected' href=''>Group Processes and Communications<a></li>
 <li><a href='project-aim.html' target='_blank'>Project Aim and Goals</a></li>
 <li><a href='project-and-progress.html' target='_blank'>Project and Progress</a></li>
-<li><a class ='selected' href=''>Project Risks</a></li>
+<li><a href='project-risks.html' target='_blank'>Project Risks</a></li>
+<li><a href='roles.html' target='_blank'>Roles</a></li>
 <li><a href='scope-and-limits.html' target='_blank'>Scope and Limits</a></li>
 <li><a href='skills-and-jobs.html' target='_blank'>Skills and Jobs</a></li>
 <li><a href='testing.html' target='_blank'>Testing</a></li>
@@ -38,20 +40,10 @@
 <li><a href='group-reflections.html' target='_blank'>Group Reflections</a></li>
 </ul>
                 </div>
-		<div id='main' style='margin-top: 10px;'>
-            <!--content div holds the bulk of the page content and is fit
-            within the container element. as with all divs and their ids the
-            properties such as color, text and margin can be edited within the
-            existing stylesheet or you can link your own-->
-            <div id='content'>
-                <!--the actual code for nav bar is held in the css, the nav bar
-                functions to create hyperlinks that open more pages of content
-                in a new tab, if possible lets stick with the new tab format-->
-                <div id='nav'></div>
                 <!--main will hold a box of content-->
-              <div id='main'>
+                <div id='main' style='margin-top: 10px;'>
                   <p>By Bradley Kurzke <br>
-                  S3925834@student.rmit.edu.au</p>
+		    S3925834@student.rmit.edu.au</p>
 					<h2>Project Risks</h2>
 					<p>In this page I have identified some risks our project will inevitably face and the best way in which we can tackle them. Whilst these are all risks that the work/life app will indeed have to consider, I believe most of them can be applied to any Mobile or web application.</p>
 					<h2>Too many features in one app?</h2>
@@ -69,12 +61,12 @@
 					<p><br>
 					  It is important to keep a  clean and simple interface that runs smoothly and offers the end user what they  want. By integrating with other software applications and using permissions  (for example scheduling a meeting in teams), the application shouldn&rsquo;t be too  laggy or unreliable. This should also minimise the need for too many extra  resources or heavier workload whilst in development. The application will also  be consistently updated upon launch in order to improve the interface and take  user feedback into account. If any particular feature is seldom used it could  be changed or removed.</p>
 					<h2>OS compatibility</h2>
-					<p>Launching an app on both  android and iOS can be a very complex process. It is common for applications to  launch on iOS prior to android as its easier to build compatible interfaces due  to there only being two devices you are building for (iPhone and iPad).   iOS  apps also have a higher ROI than Android apps as the average iOS user doesn&rsquo;t  mind spending more money on applications.<br>
+					<p>Launching an app on both  android and iOS can be a very complex process. It is common for applications to  launch on iOS prior to android as its easier to build compatible interfaces due  to there only being two devices you are building for (iPhone and iPad).   iOS  apps also have a higher ROI than Android apps as the average iOS user doesn&rsquo;t  mind spending more money on applications.<br>
 					  Android devices can vary significantly when it comes to things such as DPI and  hardware specs, and developing an app for android first would be much more time  consuming. Developing for Android does have its benefits however, as it offers  much more customisation and tweaking capabilities than iOS.<br>
 				    The best pathway for  tackling OS compatibility would be to focus on one OS first, build a fan base  and tweak the project until its in a more complete state and then port it to  the other OS. This is the same path that many other successful applications has  taken in the past.</p>
                   <h2>Security</h2>
-                  <p>The work/life balance app collects a lot of user&rsquo;s  personal data, so the security of this data is essential. Should our user&rsquo;s  sensitive data be apprehended it could cause us to lose a lot of - if not all  our user base! Everything the user inputs as well as their geolocation data etc  needs to be encrypted and not stored directly on the phone so that it cannot be  compromised.  A verified SSL certificate is  also essential for any application that is sharing data through the web and can  prevent hackers from attacking or exploiting the application. Server-side  security needs to prevent unauthorised access to personal data and APIs should  be verified so to prevent unauthorised access.</p>
-                 
+                  <p>The work/life balance app collects a lot of user&rsquo;s  personal data, so the security of this data is essential. Should our user&rsquo;s  sensitive data be apprehended it could cause us to lose a lot of - if not all  our user base! Everything the user inputs as well as their geolocation data etc  needs to be encrypted and not stored directly on the phone so that it cannot be  compromised.  A verified SSL certificate is  also essential for any application that is sharing data through the web and can  prevent hackers from attacking or exploiting the application. Server-side  security needs to prevent unauthorised access to personal data and APIs should  be verified so to prevent unauthorised access.</p>
+
                   <h2>Competitive Market</h2>
                   <p>There are other calendar  applications out there, most of them are much more developed than ours, so how  do we stand out in a competitive market? Its important that we know the answers  to these questions.<br>
                   </p>
@@ -90,11 +82,14 @@
                     <p>In a competitive market  its important that we stay one step ahead of our competition </p>
                     <p>&nbsp;</p>
                     <p>&nbsp;</p>
-              </div>
+
+
+                </div>
+            </div>
             <!--cute footer that displays our copyright-->
             <div id='footer'>
                 Copyright &copy; 2021 Mighty Ducks.
-    </div>
+            </div>
         </div>
     </body>
 </html>
