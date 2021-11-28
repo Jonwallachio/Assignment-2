@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <!--the title is whats written on the tab-->
+        <title>Mighty Ducks</title>
+        <!--use the link function to link a stylesheet,
+        alternatively you can edit the existing stylesheet-->
+        <link rel='stylesheet' type='text/css' href='stylesheet0.css'>
+    </head>
+    <body>
+        <!--the container id is held in its own div, used as pixel
+        reference for future elements. Seen as the white box within the gray borders-->
+        <div id='container'>
+            <!--this div uses the stylesheet to create a block that holds
+            the title header of the site, edit its properties in css-->
+            <div id='header'>
+                <h1>Mighty Ducks Assessment Three</h1>
+            </div>
+            <!--content div holds the bulk of the page content and is fit
+            within the container element. as with all divs and their ids the
+            properties such as color, text and margin can be edited within the
+            existing stylesheet or you can link your own-->
+            <div id='content'>
+                <!--the actual code for nav bar is held in the css, the nav bar
+                functions to create hyperlinks that open more pages of content
+                in a new tab, if possible lets stick with the new tab format-->
+                <div id='nav'>
+                    <h3>Navigation</h3>
+                    <ul>
+		        <li><a class='selected' href=''>Introduction</a></li>
+                        <li><a href='idealProject.html' target ='_blank'>Dream Project</a></li>
+                        <li><a href='gallery.html' target ='_blank'>Gallery</a></li>     
+                    </ul>
+                </div>
+                <!--main will hold a box of content-->
+                <div id='main' style='margin-top: 10px;'>
+                    <h2>Tools and Technologies</h2>
+                    <h3>Software Tools</h3>
+		    
+	            <li>GNU Emacs</li>
+		    <ul>
+		      <li>Callum has at least a year of experience with editing text in Emacs, and
+			it is his text editor of choice. In this project, Callum uses Emacs for
+			writing and running/testing python code, as well as writing HTML.</li>
+		    </ul>
+		    
+		    <li>Visual Studio Code</li>
+		    <ul>
+		      <li>VSCode is Alejandro’s text editor of choice, which he uses for writing and
+			running/testing python code. He did not have any experience with VSCode
+			prior to starting these courses, however it was very easy to learn and
+			intuitively designed. The fact that Microsoft owns both VSC and GitHub makes
+			for a smooth experience between writing code, debugging, launching virtual
+			environments and version control with GitHub. VSC also has a lot of plugins
+			available that make things easier or more intuitive on the writing and
+			testing side of things.</li>
+		    </ul>
+
+		    <li>Tkinter</li>
+		    <ul>
+		      <li>Tkinter is an interface allowing Python to utilise the Tk python library,
+			and was used in the pygui project. Alejandro had no previous experience
+			creating GUIs hence it’s a pretty small program, however learning Python in
+			the programming course made for a much smoother transition to the
+			wrapper.</li>
+		    </ul>
+
+		    <h3>Online Tools & Services</h3>
+		    
+		    <li>GitHub</li>
+		    <ul>
+		      <li>The team uses GitHub for file sharing, team work, and the creation of
+			this website. None of the team has had prior experience with Github.</li>
+		    </ul>
+
+		    <li>Microsoft Teams</li>
+		    <ul>
+		      <li>The team uses MS Teams for meetings and group messages concerning the
+			assignments. None of the team has had prior experience with Teams.</li>
+		    </ul>
+
+		    <h3>License</h3>
+
+		    <li>Apache v2.0</li>
+		    <ul>
+		      <li>Apache license was chosen to be used for the pygui GitHub repo due to it
+			being easy to import through GitHub’s website, and it also allows the code
+			to be copied, modified and distributed as open source. Additionally, all
+			copies of the files, modified and unmodified, are accompanied by a copy of
+			the license, which enables easy collaboration on the project.</li>
+		    </ul>
+		    
+                </div>
+            </div>
+            <!--cute footer that displays our copyright-->
+            <div id='footer'>
+                Copyright &copy; 2021 Mighty Ducks.
+            </div>
+        </div>
+    </body>
+</html>
